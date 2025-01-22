@@ -20,6 +20,7 @@ function HomePage() {
             <MyButton background={'#000000'}/>
             <MyButton background={'#ff0000'}/>
             <MyButton background={'#003dff'}/>
+            <Pokemon/>
         </div>
     )
 }
