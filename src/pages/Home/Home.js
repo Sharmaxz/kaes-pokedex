@@ -1,30 +1,40 @@
 import logo from "../../logo.svg";
 import MyButton from "../../components/MyButton/MyButton";
 import Pokemon from "../../components/MyButton/Pokemon"
-function HomePage() {
+    <head>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></link>
+    </head>
+    function HomePage() {
+        return (
+            <div>
+                <header>
+                    <p>Pokedex</p>
 
-    return (
-        <div>
-            <img src={logo} className="App-logo" alt="logo"/>
-            <p>
-                Edit <code>src/App.js</code> and save to reload.
-            </p>
-            <a
-                className="App-link"
-                href="https://reactjs.org"
-                target="_blank"
-                rel="noopener noreferrer"
-            >
-                Learn React
-            </a>
-            <MyButton background={'#000000'}/>
-            <MyButton background={'#ff0000'}/>
-            <MyButton background={'#003dff'}/>
-           <div>
-               <Pokemon background={'#D9D9D9'}number={'N0001'} image={''}/>
-           </div>
-        </div>
-    )
-}
+                    <div id="box">
+                        
+                        <div className="lupa-buscar">
+                            <i class="bi bi-search"></i>
+                        </div>
 
-export default HomePage
+
+                        <div className="input-buscar">
+                            <input type="text" name="poke" id="poke" placeholder="Buscar Pokemon" />
+
+                        </div>
+                            <i class="bi bi-x-circle"></i>
+                        <div className="btn-fechar"></div>
+
+                    </div>
+                </header>
+
+                <MyButton background={'#000000'}/>
+                <MyButton background={'#ff0000'}/>
+                <MyButton background={'#003dff'}/>
+            <div>
+                <Pokemon background={'#D9D9D9'}number={'N0001'} image={''}/>
+            </div>
+            </div>
+        )
+    }
+
+    export default HomePage
