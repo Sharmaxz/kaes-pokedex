@@ -1,40 +1,23 @@
-import logo from "../../logo.svg";
 import MyButton from "../../components/MyButton/MyButton";
-import Pokemon from "../../components/MyButton/Pokemon"
-    <head>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"></link>
-    </head>
-    function HomePage() {
-        return (
+import Pokemon from "../../components/Pokemon/Pokemon"
+
+function HomePage() {
+    return (
+        <div>
+            <header>
+
+            </header>
+
+            <MyButton background={'#000000'}/>
+            <MyButton background={'#ff0000'}/>
+            <MyButton background={'#003dff'}/>
             <div>
-                <header>
-                    <p>Pokedex</p>
-
-                    <div id="box">
-                        
-                        <div className="lupa-buscar">
-                            <i class="bi bi-search"></i>
-                        </div>
-
-
-                        <div className="input-buscar">
-                            <input type="text" name="poke" id="poke" placeholder="Buscar Pokemon" />
-
-                        </div>
-                            <i class="bi bi-x-circle"></i>
-                        <div className="btn-fechar"></div>
-
-                    </div>
-                </header>
-
-                <MyButton background={'#000000'}/>
-                <MyButton background={'#ff0000'}/>
-                <MyButton background={'#003dff'}/>
-            <div>
-                <Pokemon background={'#D9D9D9'}number={'N0001'} image={''}/>
+                <Pokemon background={'#807d2c'} number={'N0001'} image={'https://www.pokemon.com/static-assets/content-assets/cms2/img/pokedex/full/001.png'}/>
+                <Pokemon background={'#f30000'} number={'N0002'} image={''}/>
+                <Pokemon background={'#9ab3e8'} number={'N0003'} image={''}/>
             </div>
-            </div>
-        )
-    }
+        </div>
+    )
+}
 
-    export default HomePage
+export default HomePage
