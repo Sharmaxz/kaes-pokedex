@@ -1,16 +1,16 @@
-// // Envia uma mensagem para o console/terminal
+// Envia uma mensagem para o console/terminal
 // console.log("oi")
-//
-//
-// // Variavel do Tipo Integer (int nas demais linguages) / Number (no Javascript)
+
+
+// Variavel do Tipo Integer (int nas demais linguages) / Number (no Javascript)
 // var batatinha = 0
-//
+
 // console.log(batatinha)
-//
+
 // batatinha = 1
-//
+
 // console.log(batatinha)
-//
+// //
 // // Variavel do Tipo String (string/str)
 // var batatinhaFrita = "Oi"
 //
@@ -179,7 +179,7 @@
 // console.log(lista1[2]) // 3
 // console.log(lista1[5]) // Não existe
 // console.log(lista1[2] + lista1[0]) // 4
-//
+
 // console.log(lista2[1] + lista2[2])
 
 // length -> tamanho da lista

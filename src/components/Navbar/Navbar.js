@@ -1,12 +1,12 @@
 import './style.css'
 
 const navbar2Style = {
-    backgroundColor: 'blue',
+    backgroundColor: '#585454',
 }
 
 function Navbar() {
     const navbarStyle = {
-        backgroundColor: 'red',
+        backgroundColor: '#585454',
     }
 
     return(
@@ -26,6 +26,7 @@ function Navbar() {
                 </div>
                 <i className="bi bi-x-circle"></i>
                 <div className="btn-fechar"></div>
+                
 
             </div>
         </div>
