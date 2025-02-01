@@ -5,6 +5,7 @@
   font-family:Arial, Helvetica, sans-serif
 }
 
+/* Mover o que for CSS do componente, para o CSS do componente. */
 #box{
   background-color:#282c34;
   display: flex;
@@ -12,11 +13,13 @@
   justify-content: center;
 }
 
+/* Mover o que for CSS do componente, para o CSS do componente. */
 img{
   width: 100px;
   height: 100px;
 }
 
+/* Mover o que for CSS do componente, para o CSS do componente. */
 div#pokemon{
   display: flex;
   padding-top: 60px;

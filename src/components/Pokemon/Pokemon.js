@@ -1,4 +1,3 @@
-import '../MyButton/style.css';
 
 function Pokemon({background, image, number, type, type1, type2}){
 var type= [type1, type2]
